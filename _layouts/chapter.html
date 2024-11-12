@@ -17,7 +17,7 @@ layout: default
       {% if site.bookcrumbs.book_url %}
         {% capture book_url %}{{site.baseurl}}{{site.bookcrumbs.book_url}}{% endcapture %}
           <li>
-            {% unless book_url == page.url %}  
+            {% unless book_url == page.url %}
               <a href="{{ book_url }}">
             {% endunless %}
               {% if site.bookcrumbs.book_icon %}<img class="book-icon" src="{{site.baseurl}}/{{ site.bookcrumbs.book_icon }}">{% endif %}
@@ -43,7 +43,7 @@ layout: default
 
       {% if page_chapter_is_part_index and page_part_num%}
         <li class="breadcrumb-part no-arrow">
-          Part {{ page_part_num }}:
+          Parte {{ page_part_num }}:
         </li>
       {% endif %}
 
@@ -56,7 +56,7 @@ layout: default
                 {% if page_part_index_chapter %}
                   <a href="{{ site.baseurl }}{{ page_part_index_chapter.url }}">
                 {% endif %}
-                Part {{ page_part_num }}: {{ page_part_label }}
+                Parte {{ page_part_num }}: {{ page_part_label }}
                 {% if page_part_index_chapter %}
                   </a>
                 {% endif %}
@@ -66,7 +66,7 @@ layout: default
 
           {% if page_chapter_num %}
             <li class="no-arrow">
-              Chapter {{ page_chapter_num }}.
+              Capitulo {{ page_chapter_num }}.
             </li>
           {% endif %}
 
@@ -77,7 +77,7 @@ layout: default
 {% if page_chapter_is_part_index %}
 
   {% if page_part_num or page_part_label %}
-      <h1 class="heading-chapter-title heading-part">       
+      <h1 class="heading-chapter-title heading-part">
         {{ page_part_label | escape }}
       </h1>
   {% endif %}
@@ -106,7 +106,7 @@ layout: default
     {% if in_chapter_toc and in_chapter_toc != "" %}
       <div class="page-toc">
         <div class="page-toc-heading">
-          In this chapter:
+          En este capitulo:
           {{ in_chapter_toc }}
         </div>
       </div>
@@ -138,9 +138,9 @@ layout: default
         </div>
         <div class="pager-labels">
           <div class="part">
-            Next:
+            Siguiente:
             {% if page_next_chapter_is_part_index %}
-              Part {{ page_next_part_num }}.
+              Parte {{ page_next_part_num }}.
             {% else %}
               {% if page_next_part_label %}
                 {{ page_next_part_label }}
@@ -173,9 +173,9 @@ layout: default
         </div>
         <div class="pager-labels">
           <div class="part">
-            Previous:
+            Previo:
             {% if page_prev_chapter_is_part_index %}
-              Part {{ page_prev_part_num }}.
+              Parte {{ page_prev_part_num }}.
             {% else %}
               {% if page_prev_part_label %}
                 {{ page_prev_part_label }}

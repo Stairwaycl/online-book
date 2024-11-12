@@ -1,18 +1,18 @@
 ---
-title: References
+title: Referencias
 slug: references
 disable_toc: true
 #class: references
 ---
 
-This is an example chapter for citing references. 
+This is an example chapter for citing references.
 
 See the [Scribbr citation generator](https://www.scribbr.com/citation/generator/) to generate citations in the desired style.
 (These examples use APA style.)
 
 ### Citations in text
 
-Here's an example citation to be included in a text, 
+Here's an example citation to be included in a text,
 with a link to the references chapter:
 
 ```

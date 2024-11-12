@@ -1,5 +1,5 @@
 ---
-title: Privacy statement
+title: Declarción de privacidad
 permalink: /privacy
 layout: page
 ---

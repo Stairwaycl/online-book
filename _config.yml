@@ -1,16 +1,16 @@
 remote_theme: jasongrimes/jekyll-chapterbook
 
-title: Jekyll Chapterbook
-longtitle: Jekyll Chapterbook Theme
-author: Jason Grimes
-email: jason@grimesit.com
+title: Título
+longtitle: Algún Otro Título
+author: Nombre Del Autor
+email: email@delautor.com
 description: >
-  A Jekyll theme based on GitBook with support for chapters and parts.
+  Una plantilla de libro en línea profesional y fácil de usar, con características para organizar capítulos y secciones.
 
-# If baseurl_canonical is set, 
+# If baseurl_canonical is set,
 # a <link rel="canonical"> tag will be added to the head of each page,
 # to disambiguate links for search engines.
-baseurl_canonical: https://jasongrimes.github.io/jekyll-chapterbook
+baseurl_canonical: https://stairwaycl.github.io/jekyll-chapterbook
 
 # A copyright notice will be shown at the bottom of each page,
 # with the current year and the author name.
@@ -39,16 +39,16 @@ bookcrumbs:
 # Links shown above the TOC in the sidebar
 # All "url" variables should have a leading slash.
 sidebar_nav_top:
-- label: Jekyll Chapterbook Theme
+- label: Libro 1
   url: /index.html
+#se pueden agregar todos os label url que quieras abajo
 
 # Links shown below the TOC in the sidebar
 # All "url" variables should have a leading slash.
 sidebar_nav_bottom:
 - label: Draft outline
   url: /outline.html
-- label: Fork at GitHub
-  url: https://github.com/jasongrimes/jekyll-chapterbook/fork
+#se pueden agregar todos os label url que quieras abajo
 
 # Navigation shown at the bottom of the page
 # All "url" variables should have a leading slash.
@@ -58,7 +58,7 @@ bottom_nav:
 - label: Book
   url: /book.html
 - label: GitHub
-  url: https://github.com/jasongrimes/jekyll-chapterbook
+  url: https://github.com/stairwaycl/jekyll-chapterbook
 - label: Privacy
   url: /privacy.html
 
@@ -77,14 +77,9 @@ sidebar_toc:
   h_min: 2
   h_max: 3
 
-# 
+#
 # End navigation menus
 #
-
-# Show a link to edit each page on GitHub
-github_edit:
-  enabled: true
-  base_url: https://github.com/jasongrimes/jekyll-chapterbook/edit/master/
 
 # Custom CSS
 extra_css:

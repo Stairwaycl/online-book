@@ -13,4 +13,3 @@ This is an example chapter page.
 This file is located at: {{ page.path }}
 ```
 ---
-    
