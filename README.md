@@ -1,65 +1,37 @@
 ---
 layout: home
-title: Jekyll Chapterbook Theme
+title: Plantilla Jekyll 1
 permalink: /
 ---
 
-This is a [Jekyll](https://jekyllrb.com/) theme based on [GitBook](https://www.gitbook.com/) that adds support for easily organizing pages into book chapters and parts.
-It doesn't rely on any plugins,
-so it works natively with [GitHub Pages](https://pages.github.com/).
+Este es un tema  [Jekyll](https://jekyllrb.com/) basado en [GitBook](https://www.gitbook.com/) que agrega soporte para organizar fácilmente las páginas en capítulos y partes de libros. No depende de ningún complemento, por lo que funciona de forma nativa con [GitHub Pages](https://pages.github.com/).
 
-This theme was originally based on Tao He’s clever and immensely helpful [jekyll-gitbook](https://github.com/sighingnow/jekyll-gitbook) theme, 
-which in turn is based on an early theme of [GitBook](https://www.gitbook.com/).
+Este tema se basó en el tema [jekyll-chapterbook de Jason Grimes](https://github.com/jasongrimes/jekyll-chapterbook).
 
 ## Demos
 
-### Demo on GitHub pages
+### Demo en GitHub pages
 
-[jasongrimes.github.io/jekyll-chapterbook/](https://jasongrimes.github.io/jekyll-chapterbook/)
+[stairwaycl.github.io/jekyll-chapterbook/](https://stairwaycl.github.io/jekyll-chapterbook/)
 
-Also see its 
-[GitHub repo](https://github.com/jasongrimes/jekyll-chapterbook).
-
-### Example live site
-
-A live site with a more complex configuration can be seen at 
-[book.fretboardfoundation.com](https://book.fretboardfoundation.com).
-
-Also see its 
-[GitHub repo](https://github.com/jasongrimes/fretboardfoundation).
+Also see its
+[GitHub repo](https://github.com/stairwaycl/jekyll-chapterbook).
 
 ## Why this theme
 
-This theme is intended to help with gradually writing a book over a long period of time,
-starting from an idea and slowly building out chapters and parts.
+Este tema está pensado para ayudar a escribir un libro de forma gradual durante un largo período de tiempo, comenzando con una idea y construyendo lentamente capítulos y partes.
 
-It was created with the following objectives:
+Fue creado con los siguientes objetivos:
 
-- Output a portable, flat folder of static html that can be used offline or hosted anywhere.
-- Support all standard parts of a book, including front matter, back matter, chapters, parts, etc.
-- Support frequently reorganizing chapters and parts without breaking existing links.
-- Make the work in progress publicly available in a useful way, 
-  while making drafts that aren't ready for public consumption available without interrupting the flow of completed chapters.
-- Support quickly editing the book on-the-fly, especially from mobile.
-- Run natively on GitHub Pages without custom plugins.
-- Automatically number parts and chapters.
-- Make the markdown source files for each chapter  appear in order on the filesystem and on GitHub,
-  regardless of the chapter name, without having to manually renumber.
-  (This makes it easier to find the page you want to edit.)
+* Genere una carpeta portátil y plana de HTML estático que se puede usar sin conexión o alojar en cualquier lugar.
+Admite todas las partes estándar de un libro, incluidas las portadas, las contraportadas, los capítulos, las partes, etc.
+* Admite la reorganización frecuente de capítulos y partes sin romper los vínculos existentes.
+* Hacer que el trabajo en progreso esté disponible públicamente de una manera útil, al tiempo que se hacen disponibles los borradores que no están listos para el consumo público sin interrumpir el flujo de capítulos completados.
+* Ejecútelo de forma nativa en páginas de GitHub sin complementos personalizados.
+* Numerar automáticamente partes y capítulos.
+* Haga que los archivos fuente de Markdown de cada capítulo aparezcan en orden en el sistema de archivos y en GitHub, independientemente del nombre del capítulo, sin tener que renumerarlos manualmente. (Esto hace que sea más fácil encontrar la página que desea editar).
 
 ## Getting started
-
-### Install the theme
-
-Install this theme [like any other Jekyll theme](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll).
-For example, you could:
-- [Fork this repository](https://github.com/jasongrimes/jekyll-chapterbook/fork) and add your markdown pages to the `_chapters` folder.
-- Use it as a remote theme in your `_config.yml`,
-and then copy in the configuration from  [`jekyll-chapterbook/_config.yml`](https://github.com/jasongrimes/jekyll-chapterbook/blob/master/_config.yml).
-
-```yaml
-remote_theme: jasongrimes/jekyll-chapterbook
-```
 
 ### Create some chapters
 
@@ -74,7 +46,7 @@ Create chapters with the following front matter:
 
 ```yaml
 ---
-title: 
+title:
 slug:
 abstract:
 ---
@@ -87,7 +59,7 @@ abstract:
 Chapters also support these other front matter variables,
 though they are less common.
 
-- `published`: If `false`, the chapter will not be rendered and will not be included in the chapter numbering. 
+- `published`: If `false`, the chapter will not be rendered and will not be included in the chapter numbering.
 - `disable_toc`: If `true`, don't render the chapter's headings as a table of contents at the top of the page.
 - `class`: Optionally specify CSS class(es) to add to the `<div>` wrapping the page.
 
@@ -119,8 +91,8 @@ github_edit:
 
 To help ensure internal links don't break in different environments and support offline browsing,
 links to other pages in markdown
-should use the page's `slug` 
-and **include the .html extension**. 
+should use the page's `slug`
+and **include the .html extension**.
 For example, to link to a page with `slug: privacy`:
 
 {% raw %}
@@ -163,7 +135,7 @@ but in this case it works well for the following reasons.
 Each chapter is written in its own [Jekyll page](https://jekyllrb.com/docs/pages/),
 and stored in the [`_chapters/`](https://github.com/jasongrimes/jekyll-chapterbook/tree/master/_chapters) directory.
 
-The file name of a chapter is never shown in the book---chapters 
+The file name of a chapter is never shown in the book---chapters
 are automatically numbered,
 and the chapter name and link comes from the front matter `title` and `slug`.
 The chapter file name is only used for determining the order of the chapters.
@@ -184,7 +156,7 @@ _chapters/
 By using 3-digit numbers and incrementing them by 10 in this way,
 we can easily reorganize files without having to rename them all.
 For example,
-we could add a "synthesis" chapter between "30-antithesis" and "40-conclusion" by prefixing it with a number between 30 and 40. 
+we could add a "synthesis" chapter between "30-antithesis" and "40-conclusion" by prefixing it with a number between 30 and 40.
 
 ```
 _chapters/
@@ -202,8 +174,8 @@ by adding subdirectories to the `_chapters` directory,
 and moving the chapter files into them.
 Part directory names should begin with a number so they appear in the correct order,
 just like chapters.
-But unlike chapters, 
-the directory name (without the numeric prefix) is also shown in the book as the part name. 
+But unlike chapters,
+the directory name (without the numeric prefix) is also shown in the book as the part name.
 
 ```
 _chapters/
@@ -347,7 +319,7 @@ the `/README.md` will be used instead.
 
 ## Navigation
 
-### Sidebar 
+### Sidebar
 
 The book's automatically-generated table of contents is shown in the sidebar.
 
@@ -369,7 +341,7 @@ sidebar_nav_bottom:
   url: privacy.html
 ```
 
-### Bottom of page 
+### Bottom of page
 
 To change the links shown at the bottom of every page,
 define them in `bottom_nav` in [_config.yml](https://github.com/jasongrimes/jekyll-chapterbook/blob/master/_config.yml).
@@ -441,7 +413,7 @@ Parameters:
 ```
 {% endraw %}
 
-See an [example table of contents](https://jasongrimes.github.io/jekyll-chapterbook/contents.html) 
+See an [example table of contents](https://jasongrimes.github.io/jekyll-chapterbook/contents.html)
 and [draft outline](https://jasongrimes.github.io/jekyll-chapterbook/outline.html) in the demo.
 
 ### Figures
@@ -459,7 +431,7 @@ See an [example figure](https://jasongrimes.github.io/jekyll-chapterbook/helpers
 
 The `chapter-vars.html` helper sets a number of variables related to chapters and parts
 which can be accessed in markdown files or Liquid templates.
-It can also render the variables for inspection, 
+It can also render the variables for inspection,
 to help with debugging.
 
 Parameters:
@@ -472,10 +444,10 @@ See [example chapter vars](https://jasongrimes.github.io/jekyll-chapterbook/vari
 
 ## Wide tables
 
-Tables can be created using normal [GitHub-flavored markdown](https://github.github.com/gfm/#tables-extension-). 
+Tables can be created using normal [GitHub-flavored markdown](https://github.github.com/gfm/#tables-extension-).
 
 To prevent wide tables from breaking the book layout on mobile devices,
-wrap them in a `<div>` directly in the markdown file, 
+wrap them in a `<div>` directly in the markdown file,
 with `class="table-wrapper"` and the attribute `markdown="block"`.
 
 See an example of [mobile-friendly wide tables](https://jasongrimes.github.io/jekyll-chapterbook/wide-tables.html) in the demo.
@@ -513,8 +485,6 @@ Copyright &copy; 2023 Jason Grimes.
 This work is open source,
 made available under the [Apache License, Version 2.0](https://github.com/jasongrimes/jekyll-chapterbook/blob/master/LICENSE).
 
-Originally based on [jekyll-gitbook](https://github.com/sighingnow/jekyll-gitbook), 
+Originally based on [jekyll-gitbook](https://github.com/sighingnow/jekyll-gitbook),
 which was Copyright 2019 Tao He,
 and licensed under the [Apache License, Version 2.0](https://github.com/sighingnow/jekyll-gitbook/blob/f286e81abb57c91b7056d043d846cd308c8ea292/LICENSE).
-
-
