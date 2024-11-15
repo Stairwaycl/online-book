@@ -6,9 +6,9 @@ layout: default
 
 {% if page_chapter_is_draft %}
   <div class="markdown-section color-callout-light with-border" style="padding: 5px; padding-left: 10px; font-size: 16px; margin-bottom: 20px;">
-    This chapter is a
+    Este capítulo es un
     <b>draft</b>.
-    <a href="{{site.baseurl}}/outline.html">See the outline.</a>
+    <a href="{{site.baseurl}}/outline.html">Ver el outline.</a>
   </div>
 {% endif %}
 
@@ -21,7 +21,7 @@ layout: default
               <a href="{{ book_url }}">
             {% endunless %}
               {% if site.bookcrumbs.book_icon %}<img class="book-icon" src="{{site.baseurl}}/{{ site.bookcrumbs.book_icon }}">{% endif %}
-              Book
+              Libro
             {% unless book_url == page.url %}
               </a>
             {% endunless %}
@@ -34,7 +34,7 @@ layout: default
           {% if contents_url != page.url %}
             <a href="{{ contents_url }}">
           {% endif %}
-            Contents
+            Contenido
           {% if contents_url != page.url %}
             </a>
           {% endif %}

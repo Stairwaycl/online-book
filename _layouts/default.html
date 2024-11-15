@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html lang="en">
+<html lang="es">
   <head>
     {% include build-chapter-nav.html %}
 
@@ -80,9 +80,9 @@
                 </a>
               {% endfor %}
             </div>
-          {% endif %}
+            {% endif %}
 
-          {% if site.copyright %}
+            {% if site.copyright %}
             <div class="copyright">
               {% assign latest_year = "now" | date: "%Y" %}
               {% capture copyright_start_year %}
@@ -98,6 +98,13 @@
               {% if site.copyright.url %}
                 </a>
               {% endif %}
+            </div>
+          {% else %}
+            <div class="copyright">
+              &copy;
+              {% assign latest_year = "now" | date: "%Y" %}
+              {{ latest_year }}
+              {{ site.author }}
             </div>
           {% endif %}
 

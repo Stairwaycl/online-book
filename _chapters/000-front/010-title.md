@@ -4,7 +4,7 @@ title: Libro Demo
 abstract: An example book for showcasing the Jekyll Chapterbook theme.
 ---
 
-By Jason Grimes
+por Gatica y Mongelós SpA
 
 Copyright &copy; {{"now" | date: "%Y"}} by {{site.author}}.
 

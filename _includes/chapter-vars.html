@@ -62,7 +62,7 @@
     {% endif %}
 
     {% capture part_index_path %}_chapters/{{ part_folder}}/000-index.md{% endcapture %}
-    {% assign part_index_chapter = site.chapters | where: "path", part_index_path | first  %}  
+    {% assign part_index_chapter = site.chapters | where: "path", part_index_path | first  %}
 
     {% if part_sort_index_ext == "draft" %}
       {% assign part_is_draft = true %}
@@ -184,7 +184,7 @@
     </tr>
     <tr>
       <th colspan="2" class="divider">
-        Part metadata
+        Parte metadata
       </th>
     </tr>
     <tr>

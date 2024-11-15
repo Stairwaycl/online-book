@@ -2,7 +2,7 @@ remote_theme: jasongrimes/jekyll-chapterbook
 
 title: Título
 longtitle: Algún Otro Título
-author: Nombre Del Autor
+author: Gatica y Mongelós SpA
 email: email@delautor.com
 description: >
   Una plantilla de libro en línea profesional y fácil de usar, con características para organizar capítulos y secciones.
@@ -17,9 +17,9 @@ baseurl_canonical: https://stairwaycl.github.io/jekyll-chapterbook
 # Set a url to link to a copyright page.
 # Set a start_year to have the copyright render as "start_year - current_year" (if the years are different)
 # Set copyright: false to disable.
-copyright:
-  start_year: 2023
-  url: /book.html
+copyright: false
+  #start_year: 2023
+  #url: /book.html
 
 # Customize the link favicon in header. Will be {{site.baseurl}}/{{site.favicon_path}}
 favicon_path: assets/gitbook/images/favicon.ico
