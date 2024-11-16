@@ -32,15 +32,7 @@ Admite todas las partes estándar de un libro, incluidas las portadas, las contr
 * Haga que los archivos fuente de Markdown de cada capítulo aparezcan en orden en el sistema de archivos y en GitHub, independientemente del nombre del capítulo, sin tener que renumerarlos manualmente. (Esto hace que sea más fácil encontrar la página que desea editar).
 
 
-## Wide tables
-
-Se pueden crear tablas usando el común [GitHub-flavored markdown](https://github.github.com/gfm/#tables-extension-).
-
-Para evitar que las tablas anchas interrumpan el diseño del libro en dispositivos móviles, envuélvalas `<div>` directamente en el markdown file con `class="table-wrapper"` y el attribute `markdown="block"`.
-
-Vea un ejemplo de [mobile-friendly wide tables](https://jasongrimes.github.io/jekyll-chapterbook/wide-tables.html) en el demo.
-
-## References and citations
+## Referencias y citas
 
 Vea [ejemplo de lista de citas y referencias](https://stairwaycl.github.io/jekyll-chapterbook/references.html)en la demo.
 
