@@ -120,6 +120,7 @@ collections:
 
 defaults:
   -
+    thene: "sepia"
     scope:
       path: ""
       type: "chapters"
