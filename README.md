@@ -14,7 +14,7 @@ Este tema se basó en el tema [jekyll-chapterbook de Jason Grimes](https://githu
 
 [stairwaycl.github.io/jekyll-chapterbook/](https://stairwaycl.github.io/jekyll-chapterbook/)
 
-Also see its
+También ver
 [GitHub repo](https://github.com/stairwaycl/jekyll-chapterbook).
 
 ## Por qué este tema
@@ -32,7 +32,7 @@ Admite todas las partes estándar de un libro, incluidas las portadas, las contr
 * Haga que los archivos fuente de Markdown de cada capítulo aparezcan en orden en el sistema de archivos y en GitHub, independientemente del nombre del capítulo, sin tener que renumerarlos manualmente. (Esto hace que sea más fácil encontrar la página que desea editar).
 
 
-## Wide tables
+## Ancho de las tablas
 
 Se pueden crear tablas usando el común [GitHub-flavored markdown](https://github.github.com/gfm/#tables-extension-).
 
