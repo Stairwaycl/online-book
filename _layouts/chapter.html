@@ -8,7 +8,7 @@ layout: default
   <div class="markdown-section color-callout-light with-border" style="padding: 5px; padding-left: 10px; font-size: 16px; margin-bottom: 20px;">
     Este capítulo es un
     <b>draft</b>.
-    <a href="{{site.baseurl}}/outline.html">Ver el outline.</a>
+    <a href="{{site.baseurl}}/outline.html">Ver el borrador de esquema.</a>
   </div>
 {% endif %}
 
@@ -146,7 +146,7 @@ layout: default
                 {{ page_next_part_label }}
                 {% if page_next_chapter_num %} &#8250;{% endif %}
               {% endif %}
-              {% if page_next_chapter_num %}Chapter {{ page_next_chapter_num }}.{% endif %}
+              {% if page_next_chapter_num %}Capítulo {{ page_next_chapter_num }}.{% endif %}
             {% endif %}
           </div>
           <div class="chapter-label">
@@ -173,7 +173,7 @@ layout: default
         </div>
         <div class="pager-labels">
           <div class="part">
-            Previo:
+            Anterior:
             {% if page_prev_chapter_is_part_index %}
               Parte {{ page_prev_part_num }}.
             {% else %}
@@ -181,7 +181,7 @@ layout: default
                 {{ page_prev_part_label }}
                 {% if page_prev_chapter_num %}&#8250;{% endif %}
               {% endif %}
-              {% if page_prev_chapter_num %}Chapter {{ page_prev_chapter_num }}.{% endif %}
+              {% if page_prev_chapter_num %}Capítulo {{ page_prev_chapter_num }}.{% endif %}
             {% endif %}
           </div>
           <div class="chapter-label">

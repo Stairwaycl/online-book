@@ -1,6 +1,6 @@
 remote_theme: jasongrimes/jekyll-chapterbook
 
-title: Nombre del libro o web
+title: Nombre de web
 longtitle: Algún Otro Título
 author: Gatica y Mongelós SpA
 email: email@delautor.com
@@ -81,6 +81,12 @@ sidebar_toc:
 # End navigation menus
 #
 
+# Show a link to edit each page on GitHub
+github_edit:
+  enabled: true
+  base_url: https://github.com/stairwaycl/jekyll-chapterbook/edit/master/
+
+
 # Custom CSS
 extra_css:
 
@@ -120,7 +126,6 @@ collections:
 
 defaults:
   -
-    thene: "sepia"
     scope:
       path: ""
       type: "chapters"

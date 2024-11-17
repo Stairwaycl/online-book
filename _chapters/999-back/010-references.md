@@ -5,7 +5,7 @@ disable_toc: true
 #class: references
 ---
 
-ste es un capítulo de ejemplo para citar referencias.
+Este es un capítulo de ejemplo para citar referencias.
 
 Consulte el [Scribbr citation generator](https://www.scribbr.com/citation/generator/) para generar citas en el estilo deseado. (Estos ejemplos utilizan el estilo APA).
 
@@ -43,7 +43,7 @@ Berg, C. (1997). *Mastering Guitar Technique: Process and Essence (Classic Guita
 ```
 {% endraw %}
 
-...which renders as below.
+…que se muestra a continuación.
 
 
 
@@ -57,7 +57,5 @@ Berg, C. (2019). *Practicing Music by Design: Historic Virtuosi on Peak Performa
 
 
 ---
-```
-This file is located at: {{ page.path }}
-```
+
 ---

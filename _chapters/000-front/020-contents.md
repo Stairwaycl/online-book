@@ -3,12 +3,10 @@ title: Tabla de contenido
 slug: contents
 ---
 
-*Also see the [outline](outline) of the entire book as planned, including draft chapters that are not yet completed.*
+*También ver el [outline](outline) del libro completo tal como está planificado, incluidos los borradores de los capítulos que aún no están terminados.*
 
 {% include chapterbook-toc.html %}
 
 ---
-```
-This file is located at: {{ page.path }}
-```
+
 ---

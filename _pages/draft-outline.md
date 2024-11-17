@@ -1,18 +1,16 @@
 ---
-title: Draft outline
+title: Borrador del esquema
 permalink: /outline
 layout: page
 ---
 
-An outline of the chapters planned for this book.
-Many of them have yet to be written.
-Only the chapters with a checkmark appear in the contents and navigation. 
+Esquema de los capítulos previstos para este libro. Muchos de ellos aún no se han escrito. Solo los capítulos marcados con una marca de verificación aparecen en el índice y la navegación.
+
+
 
 {% include chapterbook-toc.html show_drafts=true %}
 
 
 ---
-```
-This file is located at: {{ page.path }}
-```
+
 ---
