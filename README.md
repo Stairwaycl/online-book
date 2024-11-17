@@ -4,10 +4,6 @@ title: Plantilla Jekyll 1
 permalink: /
 ---
 
-Este es un tema  [Jekyll](https://jekyllrb.com/) basado en [GitBook](https://www.gitbook.com/) que agrega soporte para organizar fácilmente las páginas en capítulos y partes de libros. No depende de ningún complemento, por lo que funciona de forma nativa con [GitHub Pages](https://pages.github.com/).
-
-Este tema se basó en el tema [jekyll-chapterbook de Jason Grimes](https://github.com/jasongrimes/jekyll-chapterbook).
-
 ## Demos
 
 ### Demo en GitHub pages
@@ -32,15 +28,7 @@ Admite todas las partes estándar de un libro, incluidas las portadas, las contr
 * Haga que los archivos fuente de Markdown de cada capítulo aparezcan en orden en el sistema de archivos y en GitHub, independientemente del nombre del capítulo, sin tener que renumerarlos manualmente. (Esto hace que sea más fácil encontrar la página que desea editar).
 
 
-## Ancho de las tablas
-
-Se pueden crear tablas usando el común [GitHub-flavored markdown](https://github.github.com/gfm/#tables-extension-).
-
-Para evitar que las tablas anchas interrumpan el diseño del libro en dispositivos móviles, envuélvalas `<div>` directamente en el markdown file con `class="table-wrapper"` y el attribute `markdown="block"`.
-
-Vea un ejemplo de [mobile-friendly wide tables](https://jasongrimes.github.io/jekyll-chapterbook/wide-tables.html) en el demo.
-
-## References and citations
+## Referencias y citas
 
 Vea [ejemplo de lista de citas y referencias](https://stairwaycl.github.io/jekyll-chapterbook/references.html)en la demo.
 
@@ -66,8 +54,11 @@ See the License for the specific language governing permissions and
 limitations under the License.
 
 
-Made available under the [Apache License, Version 2.0](https://github.com/jasongrimes/jekyll-chapterbook/blob/master/LICENSE).
+Made available under the [Apache License, Version 2.0](https://github.com/stairwaycl/jekyll-chapterbook/blob/master/LICENSE).
 
-Originally based on [jekyll-gitbook](https://github.com/sighingnow/jekyll-gitbook),
+Based on [jekyll-gitbook](https://github.com/jasongrimes/jekyll-chapterbook),
+which was Copyright 2023 Jason Grimes
+and licensed under the [Apache License, Version 2.0](https://github.com/jasongrames/jekyll-chapterbook/blob/master/LICENSE).
+
+Originally previous based on [jekyll-gitbook](https://github.com/sighingnow/jekyll-gitbook),
 which was Copyright 2019 Tao He,
-and licensed under the [Apache License, Version 2.0](https://github.com/sighingnow/jekyll-gitbook/blob/f286e81abb57c91b7056d043d846cd308c8ea292/LICENSE).

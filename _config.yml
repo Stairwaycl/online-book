@@ -1,6 +1,6 @@
 remote_theme: jasongrimes/jekyll-chapterbook
 
-title: Título
+title: Nombre del libro o web
 longtitle: Algún Otro Título
 author: Gatica y Mongelós SpA
 email: email@delautor.com
@@ -120,6 +120,7 @@ collections:
 
 defaults:
   -
+    thene: "sepia"
     scope:
       path: ""
       type: "chapters"
